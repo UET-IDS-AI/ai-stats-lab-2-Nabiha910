@@ -12,9 +12,9 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-# ============================================================
+# ===========================================================
 # Part 1 — Probability Foundations
-# ============================================================
+# ===========================================================
 
 def probability_union(PA, PB, PAB):
     result= PA + PB - PAB   #P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
